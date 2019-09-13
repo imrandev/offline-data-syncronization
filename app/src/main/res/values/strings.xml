@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DataCacheSync</string>
+    <string name="txt_login">LOGIN</string>
+    <string name="txt_requisition">Requisition</string>
+    <string name="txt_start_trip">Start Trip</string>
+    <string name="txt_ta">TA</string>
+    <string name="txt_repair">Repair</string>
+    <string name="txt_gas">Gas</string>
+    <string name="txt_end_trip">End Trip</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TripActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:padding="10dp"
+        android:text="Trip Activity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#D4D4D4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_gas"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="@string/txt_gas"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toTopOf="@+id/btn_repair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_repair"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="@string/txt_repair"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ta"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:text="@string/txt_ta"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_repair" />
+
+
+    <Button
+        android:id="@+id/btn_end_trip"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="@string/txt_end_trip"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ta" />
+</androidx.constraintlayout.widget.ConstraintLayout>
